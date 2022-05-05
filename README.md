@@ -1,4 +1,4 @@
-# Django 의 ORM 의 Query 는 어떻게 동작하는가
+# Django ORM 의 Query 는 어떻게 동작하는가
 
 
 
