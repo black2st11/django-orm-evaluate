@@ -1,0 +1,17 @@
+<h1>Main Page</h1>
+{{title}}
+
+<ul>
+  {% for method in href_list %}
+  <li>
+    {{ method.name }}
+    <ul>
+      {% for category in method.list %}
+      <li>
+        <a href="{{category.href}}"> {{ category.name }} </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>
